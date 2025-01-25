@@ -7,7 +7,8 @@ Este projeto permite excluir e-mails automaticamente do Gmail com base em uma li
 > **Nota:** Atualmente, na versão **1.0**, o suporte é limitado ao Gmail. Versões futuras incluirão suporte a outros provedores de e-mail.
 
 # Preview
-📽️ [Assista à demonstração do projeto](https://github.com/daniloagostinho/excluir-emails-python/blob/main/images/preview.gif?raw=true)
+
+![Veja uma demonstração do projeto](https://github.com/daniloagostinho/excluir-emails-python/blob/main/images/preview.gif?raw=true)
 
 ## Recursos
 - Autenticação segura utilizando OAuth2.
