@@ -6,6 +6,11 @@ Este projeto permite excluir e-mails automaticamente do Gmail com base em uma li
 
 > **Nota:** Atualmente, na versão **1.0**, o suporte é limitado ao Gmail. Versões futuras incluirão suporte a outros provedores de e-mail.
 
+# Preview
+
+[![Assista ao vídeo](https://img.youtube.com/vi/ID_DO_VIDEO/maxresdefault.jpg)](https://www.youtube.com/watch?v=3LqN2DL2o2E)
+
+
 ## Recursos
 - Autenticação segura utilizando OAuth2.
 - Exclusão de e-mails com base em remetentes especificados.
