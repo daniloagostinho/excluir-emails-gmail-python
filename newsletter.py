@@ -66,7 +66,16 @@ def unsubscribe_and_delete_emails(service):
     
     console.print(f"[bold green]Foram encontrados {total_newsletters} e-mails de newsletters.")
     
-    if not Confirm.ask("Deseja começar a excluí-los?"):
+    if Confirm.ask(f"Deseja excluir todos os {total_newsletters} e-mails de newsletters de uma vez?"):
+        with Progress() as progress:
+            task = progress.add_task("[red]Apagando...", total=total_newsletters)
+            for message in messages:
+                service.users().messages().delete(userId='me', id=message['id']).execute()
+                progress.advance(task)
+        console.print(f"[bold green]Todos os {total_newsletters} e-mails de newsletters foram excluídos.")
+        return
+    
+    if not Confirm.ask("Prefere visualizar as inscrições individuais antes de excluir?"):
         return
     
     page_token = None
