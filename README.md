@@ -8,7 +8,8 @@ Este projeto permite excluir e-mails automaticamente do Gmail com base em uma li
 
 # Preview
 
-[![Assista ao vídeo](https://img.youtube.com/vi/ID_DO_VIDEO/maxresdefault.jpg)](https://www.youtube.com/watch?v=3LqN2DL2o2E)
+
+📽️ [Assista à demonstração do projeto](https://www.youtube.com/watch?v=3LqN2DL2o2E)
 
 
 ## Recursos
